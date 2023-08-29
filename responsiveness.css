@@ -1,0 +1,91 @@
+@media(max-width: 750px){
+    
+    .nav-bar{
+
+        display: flex;
+        background-color: none;
+        align-items: start;
+        justify-content: flex-start;
+        margin-left:50px ;
+        margin-right: 50px;
+        margin-top: 10px;
+        gap: 5rem;
+    }
+
+
+    .navigation-buttons{
+        display: grid;
+        line-height: 0%;
+        margin-top: 5px;
+    }
+
+    .banner{
+        display: grid;
+        margin-left:50px ;
+        margin-right: 50px;
+    }
+
+    .banner-side-left{
+        font-style:oblique;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 70px;
+        /* padding: ; */
+    
+    }
+
+    .banner-side-right{
+        height: 250px;
+        width: 250px;
+        border-radius: 200px;
+        border:solid 5px ;
+        color: gold;
+        background-color: aliceblue;
+        object-fit:cover;
+        padding-top: 0%;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+
+
+    #Tech-Stack1{
+        margin-left: 9%;
+        font-style:normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 26px;
+        text-align: start;
+    
+    }
+    
+    #Tech-Stack2{
+        font-style:normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 100px;
+        text-align: start;
+    
+    }
+
+    .stack-logos{
+        height: 50px;
+        width: 50px;
+        object-fit: contain;
+    }
+
+    .stack-logos-row1{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        gap: 12px;px;
+
+    }
+    
+    
+    .stack-logos-row2{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 12px;
+    }
