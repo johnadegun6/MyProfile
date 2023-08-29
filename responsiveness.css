@@ -91,7 +91,7 @@
     }
 
     #Projects1{
-        margin-left: 25%;
+        margin-left: 8rem;
         font-style:normal;
         font-weight: 700;
         font-size: 25px;
@@ -106,7 +106,7 @@
         font-size: 19px;
         line-height: 100px;
         text-align: start;
-        margin-left: 15%;
+        margin-left: 5rem;
     }
     
     .rectangles-sub1, .rectangles-sub2{
@@ -115,5 +115,39 @@
         
     }
 
+    .footer-logo{
+
+        display: flex;
+        background-color: none;
+        align-items: start;
+        justify-content: flex-start;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        gap: 5rem;
+    }
+
+
+    .footer-contact{
+        display: grid;
+        line-height: 0%;
+        margin-top: 5px;
+    }
+
+
+    .footer-nav{
+
+        display: flex;
+        background-color: none;
+        align-items: start;
+        justify-content: flex-start;
+        margin-right: 50px;
+        margin-top: 12px;
+        gap: 2.4rem;
+    }
+
+    .footer-complement{
+        line-height: 0%;
+        margin-top: 5px;
+    }
 
 }
